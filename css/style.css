@@ -1,0 +1,90 @@
+body{
+  /* default text is Lucida Grande font with a sans-serif as a fallback option. */
+  font-family: "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* all text is white on a black background */
+  color: white;
+  background-color: black;
+}
+h1{
+  /* header 1 is 64px, centered */
+  font-size: 64px;
+  text-align: center;
+}
+h2{
+  /* header 2 is 30px, with grey (#808080) drop shadow that is offset 5px horizontally, 5px vertically, and 2px blur */
+  font-size: 30px;
+  text-shadow: 5px 5px 2px #808080;
+}
+p{
+  /* paragraphs use 24px font and have 20px padding on the top only */
+  font-size: 24px;
+  padding-top: 20px;
+}
+img{
+  /* all images are on their own line */
+  display: block;
+  /* all images are centered */
+  margin: auto;
+  /* all images are 525px wide with proper aspect ratio (they are not warped or stretched */
+  width: 525px;
+  height: auto;
+}
+div{
+  /* all divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides. */
+  min-height: 150px;
+  height: auto;
+  padding: 25px;
+}
+#red{
+  /* red div has the following styles:
+  1. background color is red (pick a hex value that passes the validator)
+  2. ext is aligned on the right side */
+  background-color: #DC143C;
+  text-align: right;
+
+}
+#blue{
+  /* blue div has the following styles:
+  1. background color is blue (pick a hex value that passes the validator)
+  2. ext is aligned on the left side */
+  background-color: #1E90FF;
+  text-align: left;
+}
+#yellow{
+  /* yellow div has the following styles:
+  1. background color is yellow (pick a hex value that passes the validator)
+  2. ext is aligned on the right side
+  3. Header 2 and paragraph text is black */
+  background-color: #FFD700;
+  text-align: right;
+  color: black;
+}
+#yellow.h2{
+	/* 4. Header 2 drop shadow is #c7e2c7 with the same parameters as above */
+	text-shadow: 5px 5px 2px #c7e2c7;
+}
+#green{
+  /* green div has the following styles:
+  1. background color is green (pick a hex value that passes the validator)
+  2. ext is aligned on the left side */
+  background-color: #008080;
+  text-align: left;
+}
+footer{
+  /* Footer text is right-aligned with 10px padding on the bottom and right only */
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+footer.p{
+  font-size: 24px;
+  padding-top: 0px;
+  color: blue;
+}
+
+
+
+
+
